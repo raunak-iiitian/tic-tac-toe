@@ -5,5 +5,5 @@
 <ul>
   <li>Reset game at any time.</li>
   <li>Give result of game.</li>
-  <li>Responsive, minimal, fun></li>
+  <li>Responsive, minimal, fun :)</li>
 </ul>
