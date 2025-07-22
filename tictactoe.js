@@ -4,6 +4,8 @@ const box = document.querySelector('.box');
 
 let subbox = box.querySelectorAll('.subbox');
 
+let strtchk = document.querySelector('#curr');
+
 const cng = (event) =>{
     const clickedelement = event.target;
     if(toggle){
@@ -28,11 +30,19 @@ const cng = (event) =>{
         if(toggle===1){
             alert("O IS THE WINNER!! CONGRATULATIONS");
             resetfunc();
+           
         }
         else{
             alert("X IS THE WINNER!! CONGRATULATIONS");
             resetfunc();
         }
+
+         if(toggle){
+                strtchk.textContent = "X";
+            }
+            else {
+                strtchk.textContent = "O";
+            }
     }
 }
 
@@ -46,6 +56,15 @@ function resetfunc(){
     for(let sub of subbox){
         sub.textContent = "";
     }
+    if(toggle){
+                strtchk.textContent = "X";
+            }
+            else {
+                strtchk.textContent = "O";
+            }
 }
 
 resetbutn.addEventListener("click", resetfunc);
+
+
+
