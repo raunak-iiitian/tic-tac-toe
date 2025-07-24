@@ -8,3 +8,5 @@
   <li>Show either game is starting with X or O, so the user can select from them.</li>
   <li>Responsive, minimal, fun :)</li>
 </ul>
+<be>
+<a href="https://tic-tac-toe-git-main-rounaks-projects-fff99d46.vercel.app/">click here to see preview</a>
